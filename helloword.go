@@ -2,9 +2,9 @@ package main
 import ("fmt")
 
 func main() {
-	Saudacao("Ian")
+	soma(2, 2)
 }
 
-func Saudacao(nome string){
-	fmt.Println("Hello, " + nome + "!")
+func soma(x int, y int) {
+	fmt.Print(x + y)
 }
